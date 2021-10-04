@@ -1,0 +1,190 @@
+/*
+Theme Name: WP Learning
+Description: This is our fisrt theme 
+Author: WPacademy
+Author URI: https://wpacademy.pk
+*/
+/******************
+01: Header
+******************/
+.site-header {
+    height: 150px;
+    background: #f0f0f0;
+}
+.site-branding { 
+    text-align: center;
+    width: 100%;
+    clear: both;
+}
+.site-branding a {
+    display: inline-block;
+    margin-top: 20px;
+}
+.site-branding img {
+    max-width: 200px;
+    max-height: 100px;
+}
+/******************
+02: Main Menu
+******************/
+.site-navigation {
+    width: 100%;
+    display: block;
+    clear: both;
+    background: #2ca358;
+    height: 60px;
+}
+.site-navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    clear: both;
+    text-align: center
+}
+.site-navigation ul li {
+    display: inline-block;
+    height: 60px;
+    margin-left: -4px;
+}
+.site-navigation ul li a {
+    display: inline-block;
+    height: 100%;
+    padding: 0 40px;
+    line-height: 60px;
+    color: #f0f0f0;
+    border-right: 1px solid #83cb8d;
+}
+.site-navigation ul li a:hover {
+    text-decoration: none;
+    background: rgba(0,0,0,0.7)
+}
+.site-navigation ul li:first-child a {
+    border-left: 1px solid #83cb8d;
+}
+/******************
+03: Home Content
+******************/
+.home-main {
+    margin-top: 15px;
+}
+.custom-header {
+    margin-bottom: 15px;
+}
+.home-posts {
+    padding: 0px 20px 0 0 !important;
+}
+.home-post {
+    margin-bottom: 15px;
+}
+.post-header .post-thumbnail a {
+    display: inline-block;
+    width: 100%;
+}
+.post-header .post-thumbnail img {
+    width: 100%;
+}
+.post-header h1 {
+    margin-top: 15px;
+    background: #f0f0f0;
+    padding: 10px;
+}
+.post-meta {
+    float: left;
+    margin-right: 10px;
+}
+.pagination {
+    padding: 10px;
+    text-align: center;
+}
+.pagination a, .page-numbers.current {
+    display: inline-block;
+    padding: 10px 15px;
+    background: #f0f0f0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    color: #333333;
+    margin: 0 5px;
+}
+.page-numbers.current {
+    background: #fff;
+}
+.post-image, .post-title, .post-meta-row, .post-content {
+    width: 100%;
+    clear: both;
+    margin-bottom: 10px;
+}
+.post-image {
+    text-align: center;
+}
+.post-container, .page-custom-header {
+    margin-top: 15px;
+}
+.home-posts .section-head {
+   padding: 10px;
+   background: #2ca358;
+   color: #fff;
+}
+.home-posts .section-head h3 {
+    margin: 0;
+}
+.home-posts .section-content {
+    padding: 5px;
+}
+.home-main-content {
+    padding: 20px;
+    height: auto;
+    overflow: hidden;
+    background: #f0f0f0;
+}
+.home-service-col {
+    text-align: center;
+}
+.service-thumb {
+    margin-bottom: 10px;
+}
+.owl-nav {
+    text-align: center;
+}
+.owl-nav button {
+    display: inline-block !important;
+    font-size: 50px !important;
+    margin: 0 10px !important;
+    padding: 10px 10px 20px 10px !important;
+    background: #f8f8f8 !important;
+    min-width: 50px !important;
+    line-height: 1 !important;
+}
+/*********************
+04: Sidebar & Widgets
+*********************/
+.home-sidebar {
+    background: #ddd;
+}
+.widget {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.widget-title {
+    margin: 0 0 10px 0;
+    padding: 10px 15px;
+    background: #333333;
+    color: #f0f0f0;
+    font-size: 20px;
+}
+.widget ul, .widget ol {
+    margin: 0 0 0 15px;
+    padding: 0;
+    list-style: none;
+}
+/*********************
+05: Footer
+*********************/
+.site-footer {
+    margin-top: 15px;
+    background: #333333;
+    padding: 30px;
+}
+.site-footer .widget a {
+    color: #ddd;
+}
